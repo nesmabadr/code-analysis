@@ -57,7 +57,7 @@ func main() {
 			log.Fatal(os.Args[2] + " does not exist. Please make sure to place the go file in test-files folder.")
 		}
 	} else {
-		log.Fatal("Please send the program name as an argument to do the static analysis.")
+		log.Fatal("Please send the program name as an argument to do the dynamic analysis.")
 	}
 }
 
